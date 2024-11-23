@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="create-account">Create Account</h1>
+        <form action="#">
+
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label for="fname">First name*</label>
+                    <input type="text" name="fname" id="fname" placeholder="enter your first name">
+                </div>
+
+                <div class="user-input-box">
+                    <label for="lname">Last name*</label>
+                    <input type="text" name="lname" id="lname" placeholder="enter your last name">
+                </div>
+            </div>
+
+            <div class="email">
+                <label for="email">Email*</label>
+                <input type="text" name="email" id="eamil" placeholder="enter your email">
+            </div>
+
+            <div class="password-info">
+                <div class="user-input-box">
+                    <label for="Password">Password*</label>
+                    <input type="text" name="Password" id="Password" placeholder="enter your password">
+                </div>
+
+                <div class="user-input-box">
+                    <label for="cPassword">Confirm Password*</label>
+                    <input type="text" name="cPassword" id="cPassword" placeholder="enter your password again">
+                </div>
+            </div>
+
+            <div class="gender-and-hobbie">
+                <div class="gender-details-box">
+                    <span class="gender-title">Gender:</span> 
+                    <div class="gender-category">
+                        <input type="radio" name="gender" id="female">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+    
+                <div class="hobbies-box">
+                    <span class="hobbies-title">Hobbies</span> 
+                    <div class="Hobbies-category">
+                        <input type="checkbox" name="hobbies" id="music">
+                        <label for="music">Music</label>
+                        <input type="checkbox" name="hobbies" id="sports">
+                        <label for="sports">Sports</label>
+                        <input type="checkbox" name="hobbies" id="travel">
+                        <label for="travel">Travel</label>
+                        <input type="checkbox" name="hobbies" id="movie">
+                        <label for="movie">Movies</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="income-info">
+                <div class="source-box">
+                    <span class="source-title">Source of Income</span> <br>
+                    <select id="source-of-income" name="source-of-income">
+                        <optio>Self-employment</option>
+                        <option>Sell designs online</option>
+                        <option>Sell stock photos</option>
+                        <option>Start a YouTube channel</option>
+                        <option>Affiliate marketing</option>
+                        <option>Invest in businesses</option>
+                        <option>Write an e-book</option>
+                    </select>
+                </div>
+    
+                <div class="income-box">
+                    <span class="income-title">Income</span> 
+                    <div class="income-category">
+                        <input type="range" id="income" name="income" >
+                        <label for="income">20k</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="last-info">
+                <div class="upload-profile">
+                    <label for="myfile">Upload Profile Picture</label>
+                    <input type="file" id="myfile" name="myfile">
+                </div>
+        
+                <div class="age-info">
+                    <label for="age-info">Age</label>
+                    <input type="text" id="age-info" name="age-info">
+                </div>
+            </div>
+            
+            <div class="bio">
+                <label for="bio">Bio</label>
+                <input type="text" name="bio" id="bio">
+            </div>
+
+        </form>
+        
+        <div class="form-submit-btn">
+            <input type="submit" value="Create">
+        </div>
+    </div>
+</body>
+</html>
